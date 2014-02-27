@@ -1,0 +1,28 @@
+ScalaMiniTwitter
+-----------------
+
+Hi There,
+
+Welcome to my Mini Twitter.
+
+The mini twitter contains 3 Scala Actors - Alice, Bob and Charlie.
+
+The 3 Musketeers or actors can follow or subscribe to each other.
+They can post messages or tweets on to their mailbox.
+They can also view messages send to their mailbox i.e they can view their respective walls.
+
+These are some sample commands to input when prompted by this application.(myTwitter.scala)
+Sample Inputs
+-------------
+posting:Alice->Halo there
+following:Alice follows Bob
+following:Alice follows Charlie
+posting:Bob->Hi Alice
+posting:Charlie->Hi All
+wall:Alice wall
+
+Output
+-------
+Charlie - Hi All (2 seconds ago)
+Bob - Hi Alice (4 seconds ago)
+Alice - Halo there (2 minutes ago)
